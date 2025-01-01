@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(222, 208, 191);
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header img {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(235, 230, 225);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+.toc {
+    margin-bottom: 20px;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.toc ul li {
+    margin: 5px 0;
+    
+}
+
+.toc ul li a {
+    text-decoration: none;
+    color: #00bcd4;
+    font-size: 1.2em;
+}
+
+.toc ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+.dino-dossier{
+    background-color:bisque;
+    border-radius: 15px;
+    }
+.dino-dossier ul{
+    padding-top: 15px;
+
+}
+.dino-dossier p {
+
+    padding-left: 15px;
+}
+
+.dossier-image {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.text-content {
+    flex: 1; 
+    
+}
+
+.image-content img {
+    flex:2;
+    width: auto;
+    height: auto; 
+    border-radius: 5px; 
+    padding-right: 80px;
+}
